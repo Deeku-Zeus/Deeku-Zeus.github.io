@@ -17,13 +17,18 @@
             color: #333;
         }
         .container {
-            max-width: 600px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
+    position: fixed;
+    top: 50px; /* Adjust this value to ensure the container is below the bookmark tab */
+    left: 50%; /* Center the container horizontally */
+    transform: translateX(-50%); /* Center the container horizontally */
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
         h1 {
             margin-bottom: 20px;
             font-size: 32px;
