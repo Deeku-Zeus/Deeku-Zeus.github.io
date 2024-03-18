@@ -1,2 +1,2 @@
-# deekshitswamy.github.io
+# deeku-zeus.github.io
 My Portfolio
